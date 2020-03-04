@@ -7,7 +7,7 @@
 // the number of blue marbles you put in the bag to start
 // the number of red marbles you put in the bag to start
 // the number of blue marbles pulled out so far, and
-// the number of red marbles pulled out so far.
+// the number of red marbles pulled out so far
 // guessBlue() should return the probability of drawing a blue marble, expressed as a float. For example, guessBlue(5, 5, 2, 3) should return 0.6.
 
 const guessBlue = (blueStart, redStart, bluePulled, redPulled) => {

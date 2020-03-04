@@ -13,7 +13,7 @@
 // -- There's no null in Haskell, therefore Maybe [Int] is used. Nothing represents null.
 // Have fun coding it and please don't forget to vote and rank this kata! :-)
 
-// I have created other katas. Have a look if you like coding and challenges.
+// I have created other katas. Have a look if you like coding and challenges
 
 function sumArray(array) {
   return Array.isArray(array) && array.length > 1 ? array.reduce((a, b) => a + b, 0) - Math.min(...array) - Math.max(...array) : 0;
